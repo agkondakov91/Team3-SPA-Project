@@ -1,0 +1,20 @@
+/* Глобальные стили */
+@import url("./global.css");
+
+/* Header */
+@import url("../components/header/header.css");
+
+/* Buttons */
+@import url("../components/button/button.css");
+
+/* Loader */
+@import url("../components/loader/loader.css");
+
+/* Main */
+@import url("../components/main/main.css");
+
+/* Card */
+@import url("../components/card/card.css");
+
+/* Footer */
+@import url("../components/footer/footer.css");

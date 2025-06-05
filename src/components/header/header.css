@@ -1,0 +1,17 @@
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .header__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .header__btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }

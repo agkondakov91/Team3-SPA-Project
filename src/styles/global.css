@@ -1,0 +1,48 @@
+@import url('section-2.css');
+
+:root {
+    --cards-hover-background: rgba(115, 175, 186);
+    --cards-hover-background-opacity: rgba(115, 175, 186, 0.7);
+    --white: white;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+ul, h2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  height: 100vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  all: unset;
+}
